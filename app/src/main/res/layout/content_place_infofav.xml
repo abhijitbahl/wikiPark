@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parkInfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@color/lightgreen"
+    tools:context="cmpsc475.example.nhn5026.wikipark.PlaceInfo"
+    tools:showIn="@layout/activity_place_info">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Name1"
+            android:focusable="false"
+            android:paddingStart="3dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Name "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtName1"
+            android:focusable="false"
+            android:paddingStart="12dp"
+            android:textSize="20sp"
+
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/Address1"
+            android:focusable="false"
+            android:textStyle="bold"
+            android:paddingStart="3dp"
+            android:textSize="20sp"
+            android:paddingTop="5dp"
+            android:text="Address "
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtAddress1"
+            android:focusable="false"
+            android:layout_below="@id/Name1"
+            android:paddingStart="12dp"
+            android:textSize="20sp"
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/City1"
+            android:focusable="false"
+            android:text="City "
+            android:paddingStart="3dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+
+            android:paddingTop="5dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtCity1"
+            android:focusable="false"
+            android:paddingStart="12dp"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:paddingTop="5dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/State1"
+            android:focusable="false"
+            android:text="State "
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            android:paddingStart="3dp"
+            android:paddingTop="5dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtState1"
+            android:focusable="false"
+            android:textSize="20sp"
+            android:paddingStart="12dp"
+            android:paddingTop="5dp"
+            android:layout_below="@id/City1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/Zip1"
+            android:focusable="false"
+            android:text="Zip "
+            android:textSize="20sp"
+            android:paddingStart="3dp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtZip1"
+            android:focusable="false"
+            android:paddingStart="12dp"
+            android:paddingTop="5dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/Spots1"
+            android:focusable="false"
+            android:textStyle="bold"
+            android:text="Available Spots "
+            android:paddingStart="3dp"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:paddingTop="5dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtSpotsAvailable1"
+            android:focusable="false"
+            android:textSize="20sp"
+            android:paddingStart="12dp"
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/Price1"
+            android:focusable="false"
+            android:text="Parking Slot Price $"
+            android:paddingStart="3dp"
+            android:textStyle="bold"
+
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:paddingTop="5dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtPrice1"
+            android:focusable="false"
+            android:paddingStart="12dp"
+            android:paddingTop="5dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="3dp"
+        android:paddingStart="3dp"
+        android:paddingRight="3dp"
+        android:paddingEnd="3dp"
+        android:layout_below="@id/first"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:id="@+id/buttons"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical">
+            <ImageButton
+                android:id="@+id/button_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:onClick="btnDelete"
+                android:src="@drawable/remove"
+                android:background="@color/lightgreen"
+               />
+            <ImageButton
+                android:id="@+id/button_directions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="80dp"
+                android:paddingStart="80dp"
+                android:text="Direction"
+
+                android:onClick="btnDirection"
+                android:src="@drawable/direction"
+                android:background="@color/lightgreen"
+                />
+        </LinearLayout>
+
+
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    <CheckBoxPreference
+        android:key="@string/pref_filtered_key1"
+        android:title="@string/pref_filtered_title1"
+        android:summary="@string/pref_filtered_summary1"
+        android:defaultValue="false" />
+
+    <!--<CheckBoxPreference
+        android:key="@string/pref_filtered_key2"
+        android:title="@string/pref_filtered_title2"
+        android:summary="@string/pref_filtered_summary2"
+        android:defaultValue="false" />
+-->
+
+
+</PreferenceScreen>

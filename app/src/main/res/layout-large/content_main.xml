@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@color/lightgreen"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="horizontal">
+
+
+
+    <ImageView
+
+        android:id="@+id/image"
+        android:contentDescription="@string/content"
+        android:layout_width="match_parent"
+        android:adjustViewBounds="true"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/main2"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="3dp"
+        android:paddingStart="3dp"
+        android:paddingRight="3dp"
+        android:paddingEnd="3dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical">
+
+
+
+        <ImageButton
+            android:id="@+id/button_nearby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/button_nearby"
+            android:onClick="nearbyPark"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+
+            android:layout_weight="2"
+
+            android:src="@drawable/nearby"
+            android:background="@color/lightgreen" />
+
+
+        <ImageButton
+            android:id="@+id/button_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/button_search"
+            android:onClick="search"
+            android:layout_weight="2"
+            android:background="#E0EEEE"
+
+            android:layout_marginStart="76dp"
+            android:layout_marginLeft="76dp"
+
+            android:src="@drawable/search"
+            />
+
+
+
+        <ImageButton
+            android:id="@+id/button_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/button_favorite"
+            android:onClick="favorite"
+            android:layout_weight="2"
+
+            android:layout_marginStart="76dp"
+            android:layout_marginLeft="76dp"
+
+            android:src="@drawable/favorite"
+            android:background="@color/lightgreen" />
+
+
+
+        <ImageButton
+            android:id="@+id/button_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/button_setting"
+            android:onClick="settings"
+            android:layout_weight="2"
+            android:layout_marginStart="76dp"
+            android:layout_marginLeft="76dp"
+            android:src="@drawable/setting"
+            android:background="@color/lightgreen"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

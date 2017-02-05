@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:padding="10dp"
+    android:clipToPadding="false"
+    android:clipChildren="false">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txtNameF"
+            android:focusable="false"
+            android:textStyle="bold"
+            android:paddingStart="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/AddressHeadingF"
+
+            android:focusable="false"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:text="Address"
+            android:paddingStart="3dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtAddressF"
+
+            android:focusable="false"
+            android:paddingStart="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/PriceHeadingF"
+
+            android:focusable="false"
+            android:paddingStart="3dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:text="Price"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtPriceF"
+            android:focusable="false"
+            android:paddingStart="12dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/SpotsHeadingF"
+
+            android:focusable="false"
+            android:textStyle="bold"
+
+            android:paddingLeft="3dp"
+
+            android:layout_width="wrap_content"
+            android:text="Available Spots"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/txtSpotsAvailableF"
+            android:focusable="false"
+
+            android:paddingStart="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cmpsc475.example.nhn5026.wikipark.MainActivity">
+
+  <!-- "Home", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/home"
+        android:title="@string/action_home"
+        app:showAsAction="ifRoom"/>
+
+   
+</menu>

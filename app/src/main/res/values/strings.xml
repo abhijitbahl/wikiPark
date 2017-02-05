@@ -1,0 +1,439 @@
+<resources>
+    <string name="app_name">wikiPark</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_home">Home</string>
+    <string name="action_search">Search</string>
+
+    <string name="button_nearby">Nearby Parks</string>
+    <string name="button_search">Park Search</string>
+    <string name="button_Search">Search</string>
+    <string name="button_favorite">My Favorite Parks</string>
+    <string name="button_setting">Setting</string>
+    <string name="title_activity_park_search">Park Search</string>
+    <string name="item_states">Select State</string>
+    <string name="item_cities">Select City</string>
+    <string name="item_address">Enter Address</string>
+    <string name="content">image</string>
+
+    <string name="button_favorite1">Favorite 1</string>
+    <string name="button_favorite2">Favorite 2</string>
+    <string name="button_favorite3">Favorite 3</string>
+    <string name="button_favorite4">Favorite 4</string>
+    <string name="button_favorite5">Favorite 5</string>
+    <string name="button_delete">Delete</string>
+    <string name="setting1">Setting 1</string>
+    <string name="setting2">Setting 2</string>
+    <string name="setting3">Setting 3</string>
+    <string name="setting4">Setting 4</string>
+    <string name="setting5">Setting 5</string>
+    <string name="setting6">Setting 6</string>
+    <string name="google_app_id">442413021383</string>
+
+    <string name="pref_filtered_key1">Dark Mode</string>
+    <string name="pref_filtered_title1">Dark Mode</string>
+    <string name="pref_filtered_summary1">Dark Background</string>
+
+    <string name="pref_filtered_key2">Setting2</string>
+    <string name="pref_filtered_title2">Setting2</string>
+    <string name="pref_filtered_summary2">Setting2</string>
+
+
+    <string-array name="states">
+        <item>Alabama</item>
+        <item>Arizona</item>
+
+        <item>California</item>
+        <item>Colorado</item>
+        <item>Connecticut</item>
+
+        <item>Florida</item>
+        <item>Georgia</item>
+
+        <item>Illinois</item>
+        <item>Indiana</item>
+        <item>Iowa</item>
+
+        <item>Louisiana</item>
+
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>Michigan</item>
+        <item>Minnesota</item>
+
+        <item>Missouri</item>
+
+        <item>New Jersey</item>
+
+        <item>New York</item>
+        <item>North Carolina</item>
+
+        <item>Ohio</item>-
+        <item>Oklahoma</item>
+        <item>Oregon</item>
+        <item>Pennsylvania</item>
+
+        <item>Tennessee</item>
+        <item>Texas</item>
+        <item>Utah</item>
+
+        <item>Virginia</item>
+        <item>Washington</item>
+        <item>Washington DC</item>
+        <item>Wisconsin</item>
+
+
+    </string-array>
+
+    <string-array name="citi_NY">
+
+        <item>Astoria</item>
+        <item>Battery Park</item>
+        <item>Boerum Hill</item>
+        <item>Bowery</item>
+        <item>Broadway</item>
+        <item>Bronx</item>
+        <item>Brooklyn</item>
+        <item>Brooklyn Heights</item>
+        <item>Buffalo</item>
+        <item>Canal Street</item>
+        <item>Chelsea</item>
+        <item>Chinatown</item>
+        <item>Clinton Hill</item>
+        <item>Cobble Hill</item>
+        <item>East Elmhurst</item>
+        <item>East Harlem</item>
+        <item>East New York</item>
+        <item>East Village</item>
+        <item>Financial District</item>
+        <item>Flatiron District</item>
+        <item>Flushing</item>
+        <item>Greenwich Village</item>
+        <item>Hamilton Heights</item>
+        <item>Harlem</item>
+        <item>Hudson Heights</item>
+        <item>Hudson Square</item>
+        <item>Hunters Point</item>
+        <item>Inwood</item>
+        <item>Jackson Heights</item>
+        <item>Kips Bay</item>
+        <item>Lenox Hill</item>
+        <item>Lincoln Square</item>
+        <item>Long Island City</item>
+        <item>Lower East Side</item>
+        <item>Lower Manhattan</item>
+        <item>Manhattan</item>
+        <item>Midtown</item>
+        <item>Midtown East</item>
+        <item>Midtown South</item>
+        <item>Midtown West</item>
+        <item>Morningside Heights</item>
+        <item>Morris Heights</item>
+        <item>Murray Hill</item>
+        <item>New York City</item>
+        <item>Orchard Park</item>
+        <item>Queens</item>
+        <item>Rego Park</item>
+        <item>Riverdale</item>
+        <item>SoHo</item>
+        <item>South Bronx</item>
+        <item>Springfield Gardens</item>
+        <item>Staten Island</item>
+        <item>TriBeCa</item>
+        <item>Tudor City</item>
+        <item>Upper East Side</item>
+        <item>Upper Manhattan</item>
+        <item>Upper West Side</item>
+        <item>Washington Heights</item>
+        <item>West Village</item>
+        <item>Yonkers</item>
+        <item>Yorkville</item>
+
+    </string-array>
+
+    <string-array name="citi_Virginia">
+        <item>Arlington</item>
+        <item>Crystal City</item>
+        <item>Norfolk</item>
+        <item>Williamsburg</item>
+    </string-array>
+
+    <string-array name="citi_Michigan">
+
+        <item>Ann Arbor</item>
+        <item>Detroit</item>
+
+
+    </string-array>
+
+    <string-array name="citi_Georgia">
+
+        <item>Athens</item>
+        <item>Atlanta</item>
+
+
+    </string-array>
+    <string-array name="citi_Alabama">
+
+        <item>Auburn</item>
+        <item>Birmingham</item>
+
+
+    </string-array>
+    <string-array name="citi_Colorado">
+
+        <item>Aurora</item>
+        <item>Denver</item>
+
+
+    </string-array>
+    <string-array name="citi_Texas">
+
+        <item>Austin</item>
+        <item>Dallas</item>
+        <item>Houston</item>
+        <item>Irving</item>
+        <item>San Antonio</item>
+
+
+    </string-array>
+
+
+    <string-array name="citi_Tennessee">
+
+
+        <item>Knoxville</item>
+        <item>Memphis</item>
+        <item>Nashville</item>
+
+    </string-array>
+
+    <string-array name="citi_Massachusetts">
+
+        <item>Boston</item>
+        <item>Brookline</item>
+        <item>Cambridge</item>
+
+    </string-array>
+    <string-array name="citi_Maryland">
+
+        <item>Baltimore</item>
+        <item>Inner Harbor</item>
+        <item>Little Italy</item>
+        <item>Rockville</item>
+
+    </string-array>
+    <string-array name="citi_Missouri">
+
+        <item>Kansas City Missouri</item>
+        <item>St Louis</item>
+
+
+    </string-array>
+    <string-array name="citi_Minnesota">
+
+        <item>Minneapolis</item>
+        <item>Saint Paul</item>
+
+
+    </string-array>
+    <string-array name="citi_NewJersey">
+
+        <item>Bayonne</item>
+        <item>East Rutherford</item>
+        <item>Hoboken</item>
+        <item>Secaucus</item>
+
+
+    </string-array>
+    <string-array name="citi_California">
+
+        <item>Berkeley</item>
+        <item>Beverly Hills</item>
+        <item>Chinatown</item>
+        <item>Civic Center</item>
+        <item>Cow Hollow</item>
+        <item>Financial District</item>
+        <item>Fishermans Wharf</item>
+        <item>Hollywood</item>
+        <item>Irvine</item>
+        <item>Long Beach</item>
+        <item>Los Angeles</item>
+        <item>Marina District</item>
+        <item>Mission District</item>
+        <item>Nob Hill</item>
+        <item>Oakland</item>
+        <item>Pasadena</item>
+        <item>Sacramento</item>
+        <item>San Diego</item>
+        <item>San Francisco</item>
+        <item>San Jose</item>
+        <item>Santa Ana</item>
+        <item>Santa Monica</item>
+        <item>South of Market</item>
+        <item>Sunnyvale</item>
+        <item>Telegraph Hill</item>
+        <item>Tenderloin</item>
+        <item>Walnut Creek</item>
+        <item>Westwood Village</item>
+
+
+    </string-array>
+    <string-array name="citi_Florida">
+
+        <item>Boca Raton</item>
+        <item>Daytona Beach</item>
+        <item>Fort Lauderdale</item>
+        <item>Jacksonville</item>
+        <item>Miami</item>
+        <item>Tallahassee</item>
+        <item>Tampa</item>
+
+
+    </string-array>
+    <string-array name="citi_Illinois">
+
+
+        <item>Boystown</item>
+        <item>Chicago</item>
+        <item>Chicago Gold Coast</item>
+        <item>Chicago Loop</item>
+        <item>Chicago Near North Side</item>
+        <item>Chicago River North</item>
+        <item>Chicago South Loop</item>
+        <item>Chicago Streeterville</item>
+        <item>Chicago West Loop</item>
+        <item>Dearborn Park</item>
+        <item>Edgewater</item>
+        <item>Evanston</item>
+        <item>Greektown</item>
+        <item>Lakeview</item>
+        <item>Lincoln Park</item>
+        <item>Logan Square</item>
+        <item>Magnificent Mile</item>
+        <item>Museum Campus</item>
+        <item>Near West Side</item>
+        <item>Newark</item>
+        <item>Oak Park</item>
+        <item>Old Town</item>
+        <item>Rogers Park</item>
+        <item>Tampa</item>
+        <item>Uptown</item>
+        <item>Wicker Park</item>
+
+    </string-array>
+    <string-array name="citi_Indiana">
+
+        <item>Indianapolis</item>
+        <item>South Bend</item>
+
+
+    </string-array>
+    <string-array name="citi_Connecticut">
+
+        <item>Bridgeport</item>
+
+
+    </string-array>
+    <string-array name="citi_Washington">
+
+        <item>Seatle</item>
+
+
+    </string-array>
+    <string-array name="citi_WashingtonDC">
+
+        <item>Cathedral Heights</item>
+        <item>Downtown</item>
+        <item>Dupont Circle</item>
+        <item>Foggy Bottom</item>
+        <item>Judiciary Square</item>
+        <item>K Street</item>
+        <item>Tenleytown</item>
+
+
+    </string-array>
+    <string-array name="citi_Wisconsin">
+
+
+        <item>Madison Wisconsin</item>
+        <item>Milwaukee</item>
+
+    </string-array>
+    <string-array name="citi_NorthCarolina">
+
+
+        <item>Charlotte</item>
+        <item>Raleigh</item>
+
+
+    </string-array>
+    <string-array name="citi_Ohio">
+
+        <item>Cincinnati</item>
+        <item>Cleveland</item>
+        <item>Columbus</item>
+        <item>Toledo</item>
+
+
+    </string-array>
+    <string-array name="citi_Oklahoma">
+
+
+        <item>Oklahoma City</item>
+
+    </string-array>
+    <string-array name="citi_Utah">
+
+        <item>Salt Lake City</item>
+
+
+    </string-array>
+    <string-array name="citi_Oregon">
+
+        <item>Portland Oregon</item>
+
+
+    </string-array>
+    <string-array name="citi_Iowa">
+
+        <item>Des Moines</item>
+
+
+    </string-array>
+    <string-array name="citi_Louisiana">
+
+        <item>New Orleans</item>
+
+
+    </string-array>
+
+    <string-array name="citi_Pennsylvania">
+
+        <item>Philadelphia</item>
+        <item>Pittsburgh</item>
+        <item>Rosemont</item>
+
+
+    </string-array>
+    <string-array name="citi_Arizona">
+
+        <item>Phoenix</item>
+        <item>Tempe</item>
+
+
+    </string-array>
+
+
+    <string name="title_activity_favorite">Favorite</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_location_finder">Location Finder</string>
+    <string name="title_activity_places_list">Places List</string>
+
+
+    <string name="title_activity_location_finder_map">Map</string>
+    <string name="title_activity_main22">Main22Activity</string>
+    <string name="title_activity_place_info">Place Information</string>
+    <string name="title_activity_nearby_places">Map</string>
+
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgreen"
+    android:id="@+id/placelist"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cmpsc475.example.nhn5026.wikipark.PlacesList"
+    tools:showIn="@layout/activity_places_list">
+
+    <ListView
+        android:id="@+id/lstPlaces"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/lightgreen"
+        android:clickable="true"
+        android:divider="@color/darkgreen"
+        android:dividerHeight="1dp"
+        />
+</RelativeLayout>

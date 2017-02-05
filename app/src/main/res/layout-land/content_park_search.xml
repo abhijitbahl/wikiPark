@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parkSearch"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lightgreen">
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:isScrollContainer="true"
+        android:scrollbars="vertical|horizontal"
+        android:layout_gravity="center"
+
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="60dip"
+                android:text="@string/item_states"
+                android:textSize="20sp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#20234d" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/text1"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="#000000"
+                android:popupBackground="#A9A9A9"
+
+                android:layout_marginLeft="10dp"
+
+                style="@style/Theme.AppCompat.Dialog"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dip"
+                android:layout_alignTop="@+id/spinner1"
+                android:text="@string/item_cities"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#20234d"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_below="@+id/text2"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#000000"
+                android:popupBackground="#A9A9A9"
+                style="@style/Base.Theme.AppCompat.Dialog"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"/>
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_below="@+id/spinner2"
+                android:text="@string/item_address"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#20234d"
+                android:textSize="20sp" />
+
+            <fragment
+                android:id="@+id/place_autocomplete_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text3"
+                android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+                tools:layout="@layout/content_park_search" />
+            <ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/button_search"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/button_Search"
+                android:text="@string/button_Search"
+                android:onClick="btnSearch"
+                android:src="@drawable/lookup"
+                android:layout_below="@+id/place_autocomplete_fragment"
+                android:layout_gravity="end"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:background="#E0EEEE"
+                android:textColor="#292e3c"
+                android:singleLine="false"
+                style="@style/AlertDialog.AppCompat.Light" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
